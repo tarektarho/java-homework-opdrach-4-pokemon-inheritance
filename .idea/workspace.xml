@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5887829b-1d04-42c0-bba0-d444c9a8d01a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokemon/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokemon/kind/ElectricPokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokemon/kind/FirePokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokemon/kind/GrassPokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokemon/kind/WaterPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/kind/ElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/types/ElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/kind/FirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/types/FirePokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/kind/GrassPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/types/GrassPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/kind/WaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/types/WaterPokemon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,25 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feat/feat/pokemon-super",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/tarektarho/IdeaProjects/Novi/opdrachtJavales4/homework/novi-java-homework-opdrach-4-pokemon-super",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/tarektarho/IdeaProjects/Novi/opdrachtJavales4/homework/novi-java-homework-opdrach-4-pokemon-super/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/feat/pokemon-super&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tarektarho/IdeaProjects/Novi/opdrachtJavales4/homework/novi-java-homework-opdrach-4-pokemon-super&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/tarektarho/IdeaProjects/Novi/opdrachtJavales4/homework/novi-java-homework-opdrach-4-pokemon-super/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -124,7 +125,8 @@
       <workItem from="1727896216094" duration="167000" />
       <workItem from="1727896386594" duration="95000" />
       <workItem from="1727896485108" duration="32000" />
-      <workItem from="1727896519400" duration="782000" />
+      <workItem from="1727896519400" duration="2414000" />
+      <workItem from="1728241182735" duration="1546000" />
     </task>
     <servers />
   </component>

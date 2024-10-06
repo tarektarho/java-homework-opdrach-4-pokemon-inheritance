@@ -1,4 +1,4 @@
-package pokemon.kind;
+package pokemon.types;
 
 import pokemon.Pokemon;
 
@@ -8,7 +8,7 @@ public class GrassPokemon extends Pokemon {
     private String specialAttack;
 
     public GrassPokemon(String name, int level, int hp, int xp, double height, double weight, String food, String sound, String attack, int grassPower, String specialAttack) {
-        super(name,level, hp, xp, height, weight, food, sound, attack);
+        super(name, "Grass", level, hp, xp, height, weight, food, sound, attack);
         this.grassPower = grassPower;
         this.specialAttack = specialAttack;
     }

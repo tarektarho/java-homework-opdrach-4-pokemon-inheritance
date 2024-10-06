@@ -1,4 +1,4 @@
-package pokemon.kind;
+package pokemon.types;
 
 import pokemon.Pokemon;
 
@@ -7,7 +7,7 @@ public class FirePokemon extends Pokemon {
     private String specialAttack;
 
     public FirePokemon(String name, int level, int hp, int xp, double height, double weight, String food, String sound, String attack, int firePower, String specialAttack) {
-        super(name,level, hp, xp, height, weight, food, sound, attack);
+        super(name, "Fire" ,level, hp, xp, height, weight, food, sound, attack);
         this.firePower = firePower;
         this.specialAttack = specialAttack;
     }

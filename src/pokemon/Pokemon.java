@@ -1,9 +1,13 @@
 package pokemon;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Superclass for all Pokemon
 public abstract class Pokemon {
     // Common attributes for all Pokemon
     private String name;
+    private List<String> type = new ArrayList<String>(); // List of types (e.g. Fire, Water, Grass, Electric) that a Pokemon can have (a Pokemon can have multiple types)
     private int level;
     private int hp; // Health Points
     private int xp; // Experience Points
@@ -14,8 +18,9 @@ public abstract class Pokemon {
     private String attack;
 
     // Constructor
-    public Pokemon(String name, int level, int hp, int xp, double height, double weight, String food, String sound, String attack) {
+    public Pokemon(String name, String type, int level, int hp, int xp, double height, double weight, String food, String sound, String attack) {
         this.name = name;
+        this.type.add(type); // Add type to the list
         this.level = level;
         this.hp = hp;
         this.xp = xp;
@@ -29,6 +34,10 @@ public abstract class Pokemon {
     // Getters
     public String getName() {
         return name;
+    }
+
+    public List<String> getType() {
+        return type;
     }
 
     public int getLevel() {
@@ -66,6 +75,10 @@ public abstract class Pokemon {
     // Setters
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setType(String type) {
+        this.type.add(type);
     }
 
     public void setLevel(int level) {
@@ -136,4 +149,22 @@ public abstract class Pokemon {
         hp = 100;
         System.out.println(name + " has been healed!");
     }
+
+
+    @Override
+    public String toString() {
+        return "Pokemon{" +
+                "name='" + name + '\'' +
+                ", type=" + type +
+                ", level=" + level +
+                ", hp=" + hp +
+                ", xp=" + xp +
+                ", height=" + height +
+                ", weight=" + weight +
+                ", food='" + food + '\'' +
+                ", sound='" + sound + '\'' +
+                ", attack='" + attack + '\'' +
+                '}';
+    }
+
 }

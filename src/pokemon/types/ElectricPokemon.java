@@ -1,4 +1,4 @@
-package pokemon.kind;
+package pokemon.types;
 
 import pokemon.Pokemon;
 
@@ -8,7 +8,7 @@ public class ElectricPokemon extends Pokemon {
     private String specialAttack;
 
     public ElectricPokemon(String name, int level, int hp, int xp, double height, double weight, String food, String sound, String attack, int electricPower, String specialAttack) {
-        super(name,level, hp, xp, height, weight, food, sound, attack);
+        super(name, "Electric", level, hp, xp, height, weight, food, sound, attack);
         this.electricPower = electricPower;
         this.specialAttack = specialAttack;
     }
@@ -28,7 +28,7 @@ public class ElectricPokemon extends Pokemon {
 
     @Override
     public void eat(int amount) {
-        System.out.println(getName() + " Eat "+ amount + " " + getFood());
+        System.out.println(getName() + " Eat " + amount + " " + getFood());
         setHp(getHp() + amount);
     }
 
